@@ -1,16 +1,15 @@
-# memstuff_manha
+# MemStuff
+Desafios da calculadora matemática da aula de Desenvolvimento Mobile da Faculdade de Tecnologia de Americana (FATEC Americana) resolvidos.
 
-A new Flutter project.
+# Aluno
 
-## Getting Started
+Fellipe Henry Bordon
 
-This project is a starting point for a Flutter application.
+## Desafios
+Todos os desafios abaixo foram concluidos com sucesso.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* [X] Adicionar um campo TextFormField parar armazenar o telefone para contato (validação de telefone, RegEX e plugin BrasilFields para formatar os campos); Não se esqueça de modificar a classe Stuff para receber o telefone também.
+* [X] Validar todos campos do formulário: data de empréstimo deve ser menor ou igual a data de hoje; descrição não pode ser vazio; nome não pode ser vazio; telefone não pode ser vazio e precisa ter a quantidade de números adequada; Você pode adicionar essa validação entendendo mais sobre TextFormField
+* [X] Adicionar uma animação na lista de objetos (documentação, vídeo tutorial);
+* [X] Implementar um tema (cores) personalizadas, incluindo fontes e tamanhos (utilize o panache para facilitar a configuração das cores).
+* [X] Adicionar um botão no StuffCard ao deslizar para esquerda, para realizar uma ligação para o número de telefone, caso ele exista; (plugin url_launcher e tutorial);
