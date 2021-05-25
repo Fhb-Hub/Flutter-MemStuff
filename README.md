@@ -1,5 +1,5 @@
 # MemStuff
-Desafios da calculadora matemática da aula de Desenvolvimento Mobile da Faculdade de Tecnologia de Americana (FATEC Americana) resolvidos.
+Resolução dos desafios do aplicativo MemStuff, realizado na aula de Desenvolvimento Mobile da Faculdade de Tecnologia de Americana (FATEC Americana).
 
 # Aluno
 
