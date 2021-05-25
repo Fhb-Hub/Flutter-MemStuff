@@ -32,11 +32,9 @@ class StuffCard extends StatelessWidget {
             icon: Icons.delete,
             onTap: onDelete,
           ),
-        ],
-        secondaryActions: <Widget>[
           IconSlideAction(
             caption: 'Ligar',
-            color: Theme.of(context).accentColor,
+            color: Colors.deepPurple.shade600,
             icon: Icons.phone,
             onTap: makePhoneCall,
           ),
@@ -46,7 +44,7 @@ class StuffCard extends StatelessWidget {
   _buildCard() {
     return AnimationConfiguration.staggeredList(
         position: 0,
-        duration: const Duration(milliseconds: 500),
+        duration: const Duration(milliseconds: 900),
         child: SlideAnimation(
             horizontalOffset: 500.0,
             child: FadeInAnimation(
